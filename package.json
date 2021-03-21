@@ -4,11 +4,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-
-    "deploy": "bash deploy.sh"
+    "docs:build": "vuepress build docs"
   },
   "name": "vuepress-note",
   "version": "1.0.0",
@@ -17,8 +13,6 @@
   "author": "pabiqi <2250380443@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "moment": "^2.29.1",
-    "vuepress-plugin-copyright": "^1.0.2",
-    "vuepress-plugin-dynamic-title": "^1.0.0"
+    "webpack-dev-server": "^2.9.1"
   }
 }

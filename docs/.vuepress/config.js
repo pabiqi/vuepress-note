@@ -1,8 +1,8 @@
 module.exports = {
   title:"南山客java日记",
   description:"南山客的java日记,java笔记,java面试",
-  base:"/vuepress-note/",
-
+  base:'/vuepress-note/',
+   
 
 
   head: [
@@ -18,6 +18,7 @@ module.exports = {
 
 
   themeConfig: {
+
     logo: '/assets/img/logo.png',
 
 nav: [
@@ -44,7 +45,6 @@ nav: [
   ],
 
 
-
   plugins: [
     [
         '@vuepress/last-updated',
@@ -65,17 +65,13 @@ nav: [
   ],
 
 
-  "dynamic-title", {
-    showIcon: "/assets/img/logo.png",
-    showText: "(/≧▽≦/)你来啦！",
-    hideIcon: "/assets/img/favicon.ico",
-    hideText: "(●—●)喔哟，崩溃啦！",
-    recoverTime: 2000
-},
-  
+ 
 
 
 ],
+
+
+  
 
   }
 }
